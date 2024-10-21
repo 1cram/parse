@@ -1,0 +1,10 @@
+[package]
+name = "parse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+k256 = { version = "0.13.1", features = ["arithmetic", "ecdsa", "std", "expose-field"] }
+x509-parser = "0.15.0"
+der-parser = "8.2.0"
+sha2 = "0.10.6"
